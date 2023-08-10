@@ -18,8 +18,8 @@
             {{ $slot }}
         </div>
 
-
         @filamentScripts
         @vite('resources/js/app.js')
+        @livewire('notifications')
     </body>
 </html>
